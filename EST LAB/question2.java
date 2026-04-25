@@ -1,4 +1,4 @@
-public class question1 {
+public class question2 {
     // Recursive function 
     public static int uniquePaths(int m, int n, int[][] dp) {
         // Base case
