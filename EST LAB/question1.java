@@ -1,4 +1,4 @@
-public class question2 {
+public class question1 {
 
     static class SegmentTree {
         int[] sumTree;

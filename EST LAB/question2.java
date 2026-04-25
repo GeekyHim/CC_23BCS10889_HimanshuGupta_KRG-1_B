@@ -1,5 +1,5 @@
 public class question2 {
-    // Recursive function 
+    // function 
     public static int uniquePaths(int m, int n, int[][] dp) {
         // Base case
         if (m == 1 || n == 1) {
@@ -19,10 +19,10 @@ public class question2 {
         int m = 3; // rows
         int n = 2; // columns
 
-        // DP array initialization
+        // DP array 
         int[][] dp = new int[m + 1][n + 1];
 
-        // Fill with -1 (means not computed)
+        // Fill with -1 
         for (int i = 0; i <= m; i++) {
             for (int j = 0; j <= n; j++) {
                 dp[i][j] = -1;
